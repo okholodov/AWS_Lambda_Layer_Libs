@@ -9,9 +9,11 @@ Attach role to Lambda with get/list/put permissions to your S3 bucket
 # Usage:
 
 Put requirements.txt file (or other file name) into the root of your S3 bucket containing libraries and version in the format:
+```
 aiobotocore==1.4.2
 aiohttp==3.7.4.post0
 aioitertools==0.8.0
+```
 
 Inside the Lambda function in #Parameters section put your S3 bucket name and the name of your txt file with the requirements
 
